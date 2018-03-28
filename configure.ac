@@ -1,5 +1,8 @@
 AC_PREREQ([2.61])
 AC_INIT([fw], [0.1], [raphexion@gmail.com])
+
+AX_ENABLE_BUILDDIR
+
 AM_INIT_AUTOMAKE([subdir-objects -Wall])
 
 LT_PREREQ([2.2])
